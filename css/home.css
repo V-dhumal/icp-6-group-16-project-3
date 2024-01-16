@@ -28,14 +28,14 @@
 }
 .brand-name{
     text-align: center;
-    color: #0ef;
+    color: #003310;
     margin-left: 600px; 
     font-size:35px;
 }
 .menu-icon{
     width: 30px;
     cursor: pointer;
-    margin-left: 580px;
+    margin-left: 560px;
     z-index: 100;
     
 }
@@ -74,7 +74,7 @@ h1{
 }
 p{
     color: #fff;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 15px;
     color: wheat;
     
@@ -88,9 +88,9 @@ p{
 button{
     width: 180px;
     color: #000;
-    font-size: 12px;
+    font-size: 16px;
     padding: 12px 0;
-    background: #fff;
+    background:#fff;
     border: 0;
     border-radius: 20px;
     outline: none;
@@ -104,23 +104,25 @@ button{
 
 button:hover{
 
-        background: cyan;
+        background-color:#003310;
+        color:#fff;
         
 
 
 }
 
 .button-send{
-    color: black;
+    color:#000;
     background-color: rgb(251, 253, 253);
     border: 2px white;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 .button-send:hover{
-    background-color: aqua;
+    background-color: #003310;
     font-size: 18px;
+    color:#fff;
 }
 
 
@@ -162,12 +164,13 @@ h5{
     color: #fff;
     text-shadow: 0 0 5px #999;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 .card p{
     text-shadow: 0 0 15px #000;
-    font-size: 10px;
+    font-size: 14px;
+    color:#000;
 
 }
 .box{
