@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        first page
+    </title>
+    <link rel="stylesheet" href="../css/home.css">
+    <style type="text/css">
+        .sidebar {
+            height: 100vh;
+            background-color: #020210;
+            width: 150px;
+            position: fixed;
+            top: 0;
+            padding-top: 75px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            opacity: 0.7;
+            background-position: center;
+            background-size: cover;
+            color: #ffffff;
+
+        }
+
+        .menu {
+            width: 100px;
+            text-align: center;
+            margin-top: 30px;
+            padding: 5px;
+            margin-left: 10px;
+            font-size: 20px;
+            background: none;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .menu:hover {
+            display: inline;
+            padding: 10px;
+            color: #999;
+            background: #999;
+            transition: 0.5sec;
+            box-shadow: 0 0 12px 6px rgb(42, 61, 72);
+            color: white;
+
+        }
+
+        .sidebar-closed {
+            left: -200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <div class="container">
+
+            <div class="navbar">
+                <img src="" class="logo">
+                <p class="brand-name">CollegeDuniya</p>
+                <img src="../images/menu.png" class="menu-icon" onclick="togglesidebae()">
+            </div>
+            <div class="row">
+                <div class="bol">
+                    <h1>Maharashtra Colleges</h1>
+                    <p> Maharashtra contain the top most colleges of the agriculture  Engineering Medical colleges . The colleges are highly developed with the latest facility and latest technology and latest syllabus.
+                    </p>
+                   
+                    <a href="./pages/aboutus.html" class="explore-button"><button type="button"><input type="button" onclick="alert('Did You Want To Explore More About Indian Tourism')" value="Enquiry" class="button-send"></button></a>
+                </div>
+                <div class="col">
+                    <a href="autonomous-colleges.html">
+                        <div class="card card1">
+                            <h5>Engineering Autonomous College</h5>
+                            <p>In these college new course and regular updated syllabus has been provided.</p>
+                        </div>
+                    </a>
+                    <a href="university-colleges.html">
+                        <div class="card card2">
+                            <h5>Engineering University College</h5>
+                            <p>The college which work under the university schedule.</p>
+                        </div>
+                    </a>
+                    <a href="medical-colleges.html">
+                        <div class="card card3">
+                            <h5>Medical College</h5>
+                            <p>The college which make the tallented Doctors for taking care of the people.</p>
+                        </div>
+                    </a>
+
+                    <a href="agri-colleges.html">
+                        <div class="card card4">
+                            <h5>Agriculture College</h5>
+                            <p>In the agriculture college the student get the knowledge of the Agriculture Field.</p>
+                        </div>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <div class="sidebar sidebar-closed" id="sidebar">
+
+                <a class="menu" href="index.html">Home</a>
+            
+                <a class="menu" href="aboutus.html">About</a>
+                <a class="menu" href="contact.html">Contact</a>
+                <a class="menu" href="./pages/login.html">Sign In</a>
+                <a class="menu" href="enquiry-page.html">Enquiry</a>
+
+            </div>
+            <footer class="footer-contact">
+                <div class="contact-container">
+                    <div class="footer-col">
+                        <div class="contact-row">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#" class="contact-footer-info">about us</a></li>
+                                <li><a href="#" class="contact-footer-info">our services</a></li>
+                                <li><a href="#" class="contact-footer-info">privacy policy</a></li>
+                                <li><a href="#" class="contact-footer-info">affiliate program</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-container">
+                        <div class="footer-col">
+                            <div class="contact-row">
+                                <h4>Get Help</h4>
+                                <ul>
+                                    <li><a href="#" class="contact-footer-info">FAQ</a></li>
+                                    <li><a href="#" class="contact-footer-info">contact</a></li>
+                                    <li><a href="#" class="contact-footer-info">enquiry</a></li>
+                                    <li><a href="#" class="contact-footer-info">services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact-container">
+                            <div class="footer-col">
+                                <div class="contact-row">
+                                    <h4>About Us</h4>
+                                    <ul>
+                                        <li><a href="#" class="contact-footer-info">comapany name</a></li>
+                                        <li><a href="#" class="contact-footer-info">policies</a></li>
+                                        <li><a href="#" class="contact-footer-info">Details</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contact-container">
+                                <div class="footer-col">
+                                    <div class="contact-row">
+                                        <h4>Follow Us</h4>
+                                        <ul>
+                                            <div class="social-link">
+                                                <img src="../images/facebook (1).png" class="img-contact">&nbsp;&nbsp;
+                                                <img src="../images/instagram.png" class="img-contact">&nbsp;&nbsp;
+                                                <img src="../images/twitter - Copy.png" class="img-contact">&nbsp;&nbsp;
+                                                <img src="../images/whatsapp.png" class="img-contact">&nbsp;&nbsp;
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+
+            </footer>
+
+            <script src="../js/home.js"></script>
+
+</body>
+
+</html>
