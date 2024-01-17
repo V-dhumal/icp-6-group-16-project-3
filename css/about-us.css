@@ -100,3 +100,30 @@ color: tomato;
     margin-left: 70px;
     color:blueviolet
     }
+
+    .card-container{
+        height: 700px;
+        width: 100%;
+        
+        background-color: aquamarine;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    .card{
+        margin: 30px 30px;
+        font-size: larger;
+       
+    }
+
+    .services-container{
+        height: 400px;
+        width: 100%;
+        padding: 100px;
+        background-color: aquamarine;
+        margin-top: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
