@@ -1,5 +1,9 @@
 body{
     background-color:#e6ffee;
+    background-image: url(../images/bg-1.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 
@@ -87,16 +91,27 @@ border-radius:15px;
 
 .heading{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 50px;
-margin-top: 70px;
+font-size: 60px;
+margin-top: 20px;
 margin-left: 70px;
-color: tomato;
+color: rgb(61, 23, 16);
 }
 
 .heading2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 70px;
-    color:blueviolet
+    color:#000;
+    margin-left:140px;
+    margin-right:120px;
     }
+.btn-1{
+    padding:10px 19px;
+    margin-left:140px;
+    background-color:#003310;
+    color:#fff;
+    border-radius:10px;
+    font-size:18px;
+
+}
